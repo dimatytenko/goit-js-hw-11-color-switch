@@ -26,7 +26,6 @@ function onClickStart() {
   intervalId = setInterval(() => {
     const currentColor =
       colors[randomIntegerFromInterval(0, colors.length - 1)];
-    console.log(currentColor);
     bodyElement.style.backgroundColor = currentColor;
   }, 1000);
 }
