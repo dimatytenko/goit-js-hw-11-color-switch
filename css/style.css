@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+button {
+  display: inline-flex;
+  margin: 15px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #1fcc33;
+  color: 000;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 3px;
+}
